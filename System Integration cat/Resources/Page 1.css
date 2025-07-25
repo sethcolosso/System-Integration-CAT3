@@ -1,0 +1,102 @@
+.parallax {
+    position:relative;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    
+   
+}
+
+.parallax_caption {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+    color: darkkhaki;
+    font-size: 25px;
+    height: 480px;
+   
+}
+
+
+#hero_header {
+    letter-spacing: 3.px;
+    font-size: 80px;
+    margin-bottom: 1%;
+
+}
+
+#hero_description {
+    color: bisque;
+    margin-top: 0;
+    margin-bottom: 6%;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+#res {
+    color: red;
+    font-size: large;
+    height: 5px;
+    width: 10%;
+}
+
+.parallax_break {
+    color: #fbf0f0;
+    background-color:white;
+    text-align:center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: justify;
+}
+
+.icon_block {
+    display: inline-block;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 25%;
+    background-color: #fbeeee;
+    border-radius: 1px;
+}
+
+.material-icons {
+    font-size: 36px;
+}
+
+.pulse {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 60px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 75px;
+    border-radius: 50%;
+    background: #5a99d4;
+    cursor: pointer;
+    box-shadow: 0 0 0 0 rgba(90, 153, 212, 0.5);
+    -webkit-animation: pulse 1.6s infinite;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        transform: scale(0.9);
+    }
+    70% {
+        transform: scale(1.1);
+        box-shadow: 0 0 0 40px rgba(90, 153, 212, 0);
+    }
+    100% {
+        transform: scale(0.9);
+        box-shadow: 0 0 0 0 rgba(90, 153, 212, 0);
+    }
+}
+#uto {
+    font-size: small;
+}

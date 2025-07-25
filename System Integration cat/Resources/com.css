@@ -1,0 +1,37 @@
+footer {
+    padding: 0.8%;
+    color: #FFF;
+    background-color: rgba(116, 79, 106, 0.93);
+}
+
+#footer-icon-holder {
+    text-align: center;
+}
+
+.footer-icon {
+    width: 2.5%;
+    margin: 0.6%;
+    margin-bottom: 0;
+}
+
+#footer-rule {
+    width: 80%;
+    margin-top: 3%;
+    margin-bottom: 4%;  
+}
+#uto {
+    font-size: large;
+    text-align:center;
+}
+#nav-wrapper {
+    position: relative;
+    height: 100%;
+}
+
+#nav-list {
+    float: right !important;
+    margin: 0;
+}
+.real{
+    text-align:center
+}

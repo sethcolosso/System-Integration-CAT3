@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>UTOPIA HEALTHCARE</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="Resources/Images/favicon.ico">
+    <link rel="icon" sizes="16x16 32x32 64x64" href="Resources/Images/favicon.ico">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="Resources/Fonts.css">
+    <link rel="stylesheet" href="Resources/Common.css">
+    <link rel="stylesheet" href="Resources/Page 2.css">
+    <link rel="stylesheet" href="p.css">
+    <elevenlabs-convai agent-id="agent_1201k0xmqkdpe7rvna5zjrxbbfb5"></elevenlabs-convai><script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .ticker-container {
+            overflow: hidden;
+            white-space: nowrap;
+            position: relative;
+            width: 100%;
+            background: #f1e4a8;
+            padding: 15px 0;
+            border-bottom: 5px solid #292b2c;
+        }
+        .ticker {
+            display: inline-block;
+            white-space: nowrap;
+            position: absolute;
+            animation: ticker 30s linear infinite;
+        }
+        @keyframes ticker {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+        .ticker-item {
+            display: inline-block;
+            padding: 0 2rem;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Ticker -->
+    <div class="ticker-container">
+        <div class="ticker" id="ticker">
+            <!-- Ticker items will be inserted here by JavaScript -->
+        </div>
+    </div>
+
+    <!-- Nav Bar -->
+    <nav>
+        <div id="nav-wrapper">
+            <ul id="nav-list">
+                <li class="nav-sub"><a href="Home.html" class="nav-link">Home</a></li>
+                <li class="nav-sub active"><a href="#" class="nav-link"></a></li>
+                <li class="nav-sub"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-sub"><a href="contact.html" class="nav-link">Contact</a></li>
+                <li class="nav-sub"><a href="signin.php" class="nav-link">Sign in</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div id="main_container" style="margin-top: 7%;">
+        <h1 id="main_header"><i style="color: rgb(215, 138, 4);">WELCOME TO</i><br><i style="color: rgb(15, 226, 159);">UTOPIA HEALTHCARE PLATFORM</i></h1>
+        <h3 style="color: rgb(223, 105, 21);">With <i style="color: rgb(244, 14, 175);">UTOPIA</i>, your health is our mission.</h3>
+        <h3 style="color: rgb(9, 127, 245);">Stay Healthy with <b style="color: aquamarine;">UTOPIA HEALTHCARE SERVICES</b></h3>
+        <h3 class='pulse'>
+            <a href="ed.html">
+                <i style="color: rgb(236, 105, 11);">
+                    <h3 style="color: rgba(128, 255, 0, 0.849);">Click Here To</h3><br>
+                    Learn more about our health programs
+                </i>
+            </a>
+        </h3>
+    </div>
+
+    <!-- Service Cards -->
+    <div id="main_card_holder" style="background-image: url(photos/c1.jpeg);"> 
+        <div class="card_pair_holder">
+            <div class="card" style="height: 350px; width:250px">
+                <div class="card_image">
+                    <a href="residential.html"><img src="photos/r1.jpeg" class="card_img"></a>
+                </div>
+                <div class="card_text">
+                    <h1 class="card_text"><a href="residential.html" class="nav-link"><i style="color: rgb(76, 3, 107);">Outpatient Services</i></a></h1>
+                </div>
+            </div>
+            <div class="card" style="height: 350px; width:245px">
+                <div class="card_image">
+                    <a href="commercial.html"><img src="images/hs3.jfif" class="card_img"></a>
+                </div>
+                <div class="card_text">
+                    <h1 class="card_text"><a href="commercial.html" class="nav-link"><i style="color: rgb(90, 40, 4);">Inpatient Care</i></a></h1>
+                </div>
+            </div>
+            <div class="card" style="height: 350px; width:250px">
+                <div class="card_image" style="height: 335px; width:250px">
+                    <a href="land.html"><img src="photos/l1.jpeg" class="card_img" style="height: 335px; width:250px"></a>
+                </div>
+                <div class="card_text">
+                    <h1 class="card_text"><a href="land.html" class="nav-link"><i style="color: olive;">Teleconsultation</i></a></h1>
+                </div>
+            </div>   
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div id="footer" style="background-color: rgba(134, 118, 118, 0.776)">
+            <h1 id="uto">Utopia Healthcare Platform - Care beyond boundaries...</h1>
+            <hr id="footer-rule">
+            <div id="footer-icon-holder">
+                <a href="https://www.reddit.com/"><img src="Resources/Images/Footer/r.png" class="footer-icon"></a>
+                <a href="https://www.facebook.com/"><img src="Resources/Images/Footer/f.png" class="footer-icon"></a>
+                <a href="https://plus.google.com/"><img src="Resources/Images/Footer/g.png" class="footer-icon"></a>
+                <a href="https://twitter.com/"><img src="Resources/Images/Footer/t.png" class="footer-icon"></a>
+                <a href="https://www.youtube.com/"><img src="Resources/Images/Footer/y.png" class="footer-icon"></a>
+            </div>
+            <h3>&copy; Utopia Healthcare, 2025</h3>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Utopia Health</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="background-animation"></div>
+
+    <!-- Nav Bar -->
+    <nav>
+        <div id="nav-wrapper">
+            <ul id="nav-list">
+                <li class="nav-sub"><a href="hom.html" class="nav-link">Home</a></li>
+                <li class="nav-sub"><a href="residential.html" class="nav-link">Outpatient Services</a></li>
+                <li class="nav-sub"><a href="commercial.html" class="nav-link">Inpatient Services</a></li>
+                <li class="nav-sub"><a href="land.html" class="nav-link">Teleconsultation</a></li>
+                <li class="nav-sub"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-sub"><a href="signin.php" class="nav-link">Sign In</a></li>
+                <li class="nav-sub active"><a href="ed.html" class="nav-link">Health Education</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Chatbot -->
+    <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
+    <script src="https://files.bpcontent.cloud/2025/01/20/11/20250120110711-9XRAPH8Y.js"></script>
+
+    <!-- Page Content -->
+    <div class="container">
+        <h1 style="color: chocolate;">Contact Utopia Health</h1>
+        <form id="contactForm" action="contact.php" method="POST">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="text" name="address" placeholder="Home Address" required>
+            <input type="text" name="location" placeholder="Preferred Branch or Location" required>
+            <input type="text" name="phone" placeholder="Phone Number" required>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
